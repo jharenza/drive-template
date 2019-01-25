@@ -3,7 +3,7 @@
 
 {{cookiecutter.description}}
 
-Project Organization
+Drive Organization
 ------------
 ```
 ├── README.md
@@ -35,4 +35,4 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+<p><small>Drive based on the <a target="_blank" href="github.com/samesense/drive-template/">cookiecutter drive template version 1</a>. #cookiecutterdatascience</small></p>
