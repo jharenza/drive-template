@@ -42,5 +42,5 @@ Drive Organization
 * archive/ holds old projects in tar.gz form, and arcus data
 * misc/ holds everything that did not belong elsewhere
 * projects/ holds all lab projects. Ideally, each project should be linked to a versioned controlled repository. When one datasset is shared between multiple projects/repositories, create a top-level directory to hold the data, and put the repos inside.
-* data/ holds public data used across the lab (hg19 ref genome), or by tools (blast db, vcfanno annotation files). This should be organized by data source (encode, ucsc), or tool (star, snpeff, gemini). /mnt/isilon/ris_public contains many reference and tool datasets. Check this directory before adding data to ref-data/.
+* data/ holds reference data or datasets that span multiple projects. Check /reference_data/ before adding data here.
 * users/ is a free space for lab members to store files that to not fit elsewhere.
