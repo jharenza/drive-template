@@ -5,7 +5,7 @@
 
 Project Organization
 ------------
-
+```
 ├── README.md
 ├── apps
 │   ├── README.md
@@ -31,7 +31,7 @@ Project Organization
     ├── README.md
     └── evansj
         └── tmp
-
+```
 
 --------
 
