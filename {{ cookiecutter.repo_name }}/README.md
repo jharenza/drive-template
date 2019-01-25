@@ -3,6 +3,8 @@
 
 {{cookiecutter.description}}
 
+This is an {{nfs.or.smb}} drive. Permissions... Mounting abilities...
+
 Drive Organization
 ------------
 ```
@@ -46,4 +48,4 @@ Drive Organization
 * data/ holds reference data or datasets that span multiple projects. Check /reference_data/ before adding data here.
 * users/ is a free space for lab members to store files that to not fit elsewhere.
 
-* nfs vs smb and real meaning for sharing/permissions
+
