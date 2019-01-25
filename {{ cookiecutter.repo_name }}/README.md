@@ -6,27 +6,28 @@
 Drive Organization
 ------------
 ```
+/mnt/isilon/PI_drive
 ├── README.md
 ├── apps
-│   ├── README.md
-│   ├── bin
-│   ├── include
-│   ├── lib
-│   ├── opt
-│   ├── src
-│   └── versioned_apps
+│   ├── README.md
+│   ├── bin
+│   ├── include
+│   ├── lib
+│   ├── opt
+│   ├── src
+│   └── tools
 ├── archive
-│   ├── README.md
-│   ├── arcus
-│   └── project-name-1.tar.gz
+│   ├── README.md
+│   ├── arcus
+│   └── project-name-1.tar.gz
 ├── data
-│   └── README.md
+│   └── README.md
 ├── misc
-│   └── README.md
+│   └── README.md
 ├── projects
-│   ├── README.md
-│   ├── project-name-1
-│   └── project-name-2
+│   ├── README.md
+│   ├── project-name-1
+│   └── project-name-2
 └── users
     ├── README.md
     └── evansj
