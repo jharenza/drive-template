@@ -3,7 +3,30 @@
 
 {{cookiecutter.description}}
 
-This is an {{nfs.or.smb}} drive. Permissions... Mounting abilities...
+This is an {{nfs.or.smb}} drive. Permissions... Mounting abilities... [JD Email](https://mail.google.com/mail/u/0/#inbox/QgrcJHsTjWNCBrXVPbmQGNtLzxGkgpDHPxv)
+
+Share can be nfs and/or smb
+
+Mounting?
+
+There are two permission schemes we use.
+
+ 
+
+Pure unix:
+
+Drive starts with 2770 (group sticky bit), but otherwise is just unix, this scheme allows for individual folder control of permissions, because group has write, you can make your own dir then chmod it 700 to lock out anyone else.
+
+This is only supported on NFS only drives
+
+If you can chmod 700 something you own on the share, it’s NFS only.
+ 
+
+ACLs:
+
+Group is created for the share and anyone in the group has rwx access to everything. No custom control of subdirectories.
+
+Required for SMB and NFS+SMB
 
 Drive Organization
 ------------
