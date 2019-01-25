@@ -1,4 +1,5 @@
 ## data/
+* Shared data repo for the lab
 * Check [/reference-data/](https://github.research.chop.edu/RIS/reference_data) before placing data here.
 * data/ can hold
      * public data used across the lab, but not provided in /reference-data
