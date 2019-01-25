@@ -44,3 +44,5 @@ Drive Organization
 * projects/ holds all lab projects. Ideally, each project should be linked to a versioned controlled repository. When one datasset is shared between multiple projects/repositories, create a top-level directory to hold the data, and put the repos inside.
 * data/ holds reference data or datasets that span multiple projects. Check /reference_data/ before adding data here.
 * users/ is a free space for lab members to store files that to not fit elsewhere.
+
+* nfs vs smb and real meaning for sharing/permissions
