@@ -38,6 +38,7 @@ $ conda install cookiecutter
 The directory structure of your lab looks like this: 
 
 ```
+/mnt/isilon/lab_drive/
 ├── README.md
 ├── archive
 │   ├── README.md
@@ -64,6 +65,7 @@ The directory structure of your lab looks like this:
 │   │       └── scif
 │   └── src
 └── users
+    ├── README.md
     └── evansj
         ├── README.md
         └── tmp
