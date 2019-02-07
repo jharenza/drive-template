@@ -35,18 +35,10 @@ $ conda install cookiecutter
 ### The resulting directory structure
 ------------
 
-The directory structure of your new project looks like this: 
+The directory structure of your lab looks like this: 
 
 ```
 ├── README.md
-├── apps
-│   ├── README.md
-│   ├── bin
-│   ├── include
-│   ├── lib
-│   ├── opt
-│   ├── src
-│   └── tools
 ├── archive
 │   ├── README.md
 │   ├── arcus
@@ -59,9 +51,21 @@ The directory structure of your new project looks like this:
 │   ├── README.md
 │   ├── project-name-1
 │   └── project-name-2
+├── tools
+│   ├── README.md
+│   ├── bin
+│   ├── include
+│   ├── lib
+│   ├── opt
+│   ├── scif
+│   │   └── softwareName__vVersion
+│   │       ├── bin
+│   │       ├── lib
+│   │       └── scif
+│   └── src
 └── users
-    ├── README.md
     └── evansj
+        ├── README.md
         └── tmp
 ```
 
