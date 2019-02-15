@@ -3,7 +3,7 @@
 
 {{cookiecutter.description}}
 
-This is an {{nfs.or.smb}} drive. NFS scheme allows for individual folder control of permissions, because group has write, you can make your own dir then chmod it 700 to lock out anyone else. For SMB scheme, group is created for the share and anyone in the group has rwx access to everything. No custom control of subdirectories.
+This is an {{cookecutter.nfs}} drive. NFS scheme allows for individual folder control of permissions, because group has write, you can make your own dir then chmod it 700 to lock out anyone else. For SMB scheme, group is created for the share and anyone in the group has rwx access to everything. No custom control of subdirectories.
 
 Drive Organization
 ------------
